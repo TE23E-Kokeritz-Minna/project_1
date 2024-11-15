@@ -19,7 +19,7 @@ header {
     margin: 25px 0;
 }
 
-nav{
+.övre{
     width: 100%;
     border-top: #733c3c 35px solid;
     border-bottom: #733c3c 35px solid;
@@ -70,7 +70,12 @@ nav{
 
 .data_P{
     font-size: 30px;
-    margin: 0px 0px  ;
+    margin: 0px 0px;
+    padding-right: 20px;
+}
+
+.info_T{
+    padding: 5px 30px;
 }
 
 
@@ -84,18 +89,46 @@ nav{
 }
 
 
+main{
+    display: flex;
+    flex-direction: row;
+    width: 92%;
+    align-self: center;
+    background-color: cadetblue;
 
+    margin: 25px 0px;
+}
 
+aside{
+    background-color: chocolate;
+}
 
+article{
+    background-color: darkseagreen;
+    margin-left: 25px;
+}
 
-
-
-
+footer{
+    background-color: #733c3c;
+    text-align: center;
+}
 
 .mörk_B {
     background-color: brown;
     padding: 0 2px;
     width: fit-content;
+}
+
+nav{
+    background-color: deepskyblue;
+    width: 92%;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+#inköp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 
