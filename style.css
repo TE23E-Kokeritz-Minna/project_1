@@ -1,25 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Irish+Grover&display=swap');
 
 body {
-    background-color: #FFFCE6;
-
     display: flex;
     flex-direction: column;
+    
+    background-color: #FFFCE6;
     margin: 0%;
-
 }
 
-
 header {
-    background-color: aquamarine;
+    background-color: #FCAE9A;
+
+    border: #733c3c 2px solid;
+    border-radius: 5px;
 
     width: 92%;
     align-self: center;
     text-align: center;
-    border: #733c3c 2px solid;
     margin: 25px 0;
 }
 
-.övre{
+h1{
+    font-family: "Irish grover", monospace;
+    color: #26371b;
+
+    font-size: 2.3em;
+
+    padding: 5px auto;
+}
+
+.vit_T{
+    color: #F2FFF7;
+}
+
+.övre {
     width: 100%;
     border-top: #733c3c 35px solid;
     border-bottom: #733c3c 35px solid;
@@ -39,11 +53,11 @@ header {
     margin-top: 25px;
     margin-bottom: 25px;
 
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
 }
 
 
-.tårta{
+.tårta {
     width: 100%;
     min-height: fit;
     justify-self: left;
@@ -52,44 +66,44 @@ header {
 }
 
 
-.data{
+.data {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 100%;
 
     align-items: center;
-    background-color:coral;
+    background-color: coral;
 }
 
 
-.icon{
+.icon {
     height: 40px;
 }
 
 
-.data_P{
+.data_P {
     font-size: 30px;
     margin: 0px 0px;
     padding-right: 20px;
 }
 
-.info_T{
+.info_T {
     padding: 5px 30px;
 }
 
 
-.bild2{
+.bild2 {
     height: 100px;
 }
 
 
-.information{
-    background-color:darkcyan;
+.information {
+    background-color: darkcyan;
 }
 
 
-main{
+main {
     display: flex;
     flex-direction: row;
     width: 92%;
@@ -99,16 +113,16 @@ main{
     margin: 25px 0px;
 }
 
-aside{
+aside {
     background-color: chocolate;
 }
 
-article{
+article {
     background-color: darkseagreen;
     margin-left: 25px;
 }
 
-footer{
+footer {
     background-color: #733c3c;
     text-align: center;
 }
@@ -119,44 +133,14 @@ footer{
     width: fit-content;
 }
 
-nav{
+nav {
     background-color: deepskyblue;
     width: 92%;
     align-self: center;
     margin-bottom: 25px;
 }
 
-#inköp{
+#inköp {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
-
-/*
-.tårta_I{
-    width: 90%;
-    grid-row: 1/3;
-    justify-self: center;
-    align-self: center;
-}
-
-
-.bild2{
-    height: 100px;
-}
-.data{
-    display: flex;
-    flex-direction: row;
-   
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.information {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-
-.icon{
-    height: 50px;
-} */
