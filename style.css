@@ -20,6 +20,8 @@ body {
 
 .mörk_B {
     background-color: #DE856F;
+    width: fit-content;
+    
     padding-left: 20px;
 }
 
@@ -108,7 +110,7 @@ h1 {
     margin: 0px 0px;
 }
 
-i{
+i {
     font-weight: lighter;
     font-size: 14px;
 }
@@ -137,10 +139,34 @@ i{
 }
 
 
+/*******************
+       main 
+********************/
+
+main {
+    display: flex;
+    flex-direction: row;
+    
+    width: 92%;
+    align-self: center;
+
+    margin: 25px 0px;
+}
+
+h2{
+    font-family: "Marhey", sans-serif;
+}
 
 
+/***** ingredienser *****/
 
+aside {
+    background-color: #DE856F;
 
+    width: 25%;
+
+    text-align: center;
+}
 
 
 .bild2 {
@@ -149,20 +175,7 @@ i{
 
 
 
-
-main {
-    display: flex;
-    flex-direction: row;
-    width: 92%;
-    align-self: center;
-    background-color: cadetblue;
-
-    margin: 25px 0px;
-}
-
-aside {
-    background-color: chocolate;
-}
+/***** instruktioner *****/
 
 article {
     background-color: darkseagreen;
@@ -173,6 +186,14 @@ footer {
     background-color: #733c3c;
     text-align: center;
 }
+
+
+
+
+
+
+
+
 
 
 
