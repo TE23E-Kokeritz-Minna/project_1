@@ -19,9 +19,8 @@ body {
 }
 
 .mörk_B {
-    background-color: brown;
-    padding: 0 2px;
-    width: fit-content;
+    background-color: #DE856F;
+    padding-left: 20px;
 }
 
 
@@ -104,6 +103,8 @@ h1 {
     font-family: "Marhey", sans-serif;
     font-size: 28px;
 
+    color: #26371b;
+
     margin: 0px 0px;
 }
 
@@ -121,11 +122,18 @@ i{
 
 .information {
     background-color: #FCAE9A;
+    color: #26371b;
 }
 
 
 .info_T {
     font-family: "Gabriela", serif;
+    font-size: 17px;
+
+    justify-self: center;
+
+    width: 90%;
+    margin-top: 20px;
 }
 
 
