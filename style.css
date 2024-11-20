@@ -10,6 +10,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    font-family: "Gabriela", serif;
+
     background-color: #FFFCE6;
     margin: 0%;
 }
@@ -21,7 +23,7 @@ body {
 .mörk_B {
     background-color: #DE856F;
     width: fit-content;
-    
+
     padding-left: 20px;
     padding: 0px 20px;
     margin: 10px 20px;
@@ -151,14 +153,14 @@ i {
 main {
     display: flex;
     flex-direction: row;
-    
+
     width: 90%;
     align-self: center;
 
     margin: 25px 0px;
 }
 
-h2{
+h2 {
     font-family: "Marhey", sans-serif;
 }
 
@@ -172,23 +174,23 @@ aside {
     text-align: center;
 }
 
-#ing{
+#ing {
     text-decoration: underline #733c3c 2.5px;
     text-underline-offset: 3px;
 }
 
-.lista{
+.lista {
     color: #26371b;
-    
+
     text-align: start;
-    list-style:"> ";
+    list-style: "> ";
 
     font-family: "Gabriela", serif;
     font-size: 17px;
 
 }
 
-.mängd{
+.mängd {
     font-weight: normal;
     color: #733c3c;
 }
@@ -206,8 +208,8 @@ article {
     padding: 10px 15px;
 }
 
-.instruktioner{
-    font-size: 18px;
+.instruktioner {
+    font-size: 16px;
     color: #26371b;
     padding-right: 22px;
 }
@@ -218,6 +220,7 @@ article {
     height: 200px;
     margin: 15px;
 }
+
 #bak_2 {
     float: left;
     height: 200px;
@@ -227,6 +230,36 @@ article {
 }
 
 
+/*******************
+        nav
+********************/
+
+nav {
+    background-color: #DE856F;
+    width: 90%;
+    align-self: center;
+    margin-bottom: 25px;
+}
+
+#inköp {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: 15px 40px;
+}
+
+a{
+    color: #582222;
+}
+
+#inköp_Rubrik{
+    color: #F2FFF7;
+    text-decoration: underline 2.5px #733c3c;
+    text-underline-offset: 3px;
+
+    margin-bottom: 0px;
+    padding-left: 35px;
+}
 
 
 
@@ -236,16 +269,4 @@ article {
 footer {
     background-color: #733c3c;
     text-align: center;
-}
-
-nav {
-    background-color: deepskyblue;
-    width: 90%;
-    align-self: center;
-    margin-bottom: 25px;
-}
-
-#inköp {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
 }
