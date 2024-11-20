@@ -163,11 +163,30 @@ h2{
 aside {
     background-color: #DE856F;
 
-    width: 25%;
-
+    min-width: 19%;
     text-align: center;
 }
 
+#ing{
+    text-decoration: underline #733c3c 2.5px;
+}
+
+.lista{
+    color: #26371b;
+    
+    text-align: start;
+    list-style:"> ";
+
+    font-family: "Gabriela", serif;
+    font-size: 17px;
+
+}
+
+.mängd{
+    font-weight: normal;
+
+    color: #733c3c;
+}
 
 .bild2 {
     height: 100px;
