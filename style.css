@@ -246,6 +246,7 @@ nav {
     grid-template-columns: repeat(4, 1fr);
 
     margin: 15px 40px;
+    font-size: 16.5px;
 }
 
 a{
@@ -262,11 +263,25 @@ a{
 }
 
 
-
-
+/*******************
+        footer
+********************/
 
 
 footer {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
     background-color: #733c3c;
     text-align: center;
+    color: #FCAE9A;
+}
+
+#mail{
+    margin-left: 10px;
+
+    color: #F2FFF7;
 }
