@@ -21,7 +21,7 @@ body {
 }
 
 .mörk_B {
-    background-color: #DE856F;
+    background-color: #c96f58;
     width: fit-content;
 
     padding-left: 20px;
@@ -89,6 +89,8 @@ h1 {
 
 .tårta {
     grid-row: 1/3;
+
+    object-fit: cover;
 
     width: 100%;
     height: 100%;
@@ -192,10 +194,10 @@ aside {
 
 .mängd {
     font-weight: normal;
-    color: #733c3c;
+    color: #582222;
 }
 
-.bild2 {
+.ingredienser_bild {
     height: 100px;
 }
 
@@ -216,14 +218,17 @@ article {
 
 #bak_1 {
     float: right;
-    order: -1;
-    height: 200px;
+    height: 180px;
+    width: 250px;
+    object-fit: cover;
     margin: 15px;
 }
 
 #bak_2 {
     float: left;
-    height: 200px;
+    height: 180px;
+    width: 250px;
+    object-fit: cover;
     margin-right: 33px;
     margin-left: -18px;
     margin-top: 10px;
@@ -244,9 +249,11 @@ nav {
 #inköp {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
 
     margin: 15px 40px;
     font-size: 16.5px;
+
 }
 
 a{
