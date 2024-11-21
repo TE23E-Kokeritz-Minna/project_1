@@ -9,10 +9,11 @@
 body {
     display: flex;
     flex-direction: column;
+    
+    background-color: #FFFCE6;
 
     font-family: "Gabriela", serif;
 
-    background-color: #FFFCE6;
     margin: 0%;
 }
 
@@ -22,6 +23,7 @@ body {
 
 .mörk_B {
     background-color: #c96f58;
+
     width: fit-content;
 
     padding-left: 20px;
@@ -39,17 +41,18 @@ header {
 
     border: #733c3c 2px solid;
     border-radius: 5px;
-
-    width: 90%;
+    
     align-self: center;
     text-align: center;
+
+    width: 90%;
     margin: 25px 0;
 }
 
 h1 {
-    font-family: "Irish grover", monospace;
     color: #26371b;
-
+    
+    font-family: "Irish grover", monospace;
     font-size: 2.3em;
 
     padding: 5px auto;
@@ -87,7 +90,7 @@ h1 {
 
 /***** Bild *****/
 
-.tårta {
+#tårta {
     grid-row: 1/3;
 
     object-fit: cover;
@@ -138,7 +141,6 @@ i {
 
 
 .info_T {
-    font-family: "Gabriela", serif;
     font-size: 17px;
 
     justify-self: center;
@@ -176,18 +178,17 @@ aside {
     text-align: center;
 }
 
-#ing {
+#ing_Rubrik {
     text-decoration: underline #733c3c 2.5px;
     text-underline-offset: 3px;
 }
 
-.lista {
+#ingredienser_lista {
     color: #26371b;
 
     text-align: start;
     list-style: "> ";
 
-    font-family: "Gabriela", serif;
     font-size: 17px;
 
 }
@@ -197,8 +198,11 @@ aside {
     color: #582222;
 }
 
-.ingredienser_bild {
+#ingredienser_bild {
     height: 100px;
+    width: 90%;
+
+    object-fit: cover;
 }
 
 
@@ -210,10 +214,14 @@ article {
     padding: 10px 15px;
 }
 
-.instruktioner {
+#instruktioner {
     font-size: 16px;
     color: #26371b;
     padding-right: 22px;
+}
+
+li{
+    margin-bottom: 5px;
 }
 
 #bak_1 {
@@ -253,7 +261,6 @@ nav {
 
     margin: 15px 40px;
     font-size: 16.5px;
-
 }
 
 a{
